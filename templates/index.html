@@ -7,6 +7,12 @@
 </head>
 <body>
     <h1>Number guessing game</h1>
-  
+  <form action="/process" method="post">
+    {% for number in range(6) %}
+    <label for="guessField{{ number }}">Guess a number from 0 to 222</label>
+    <input type="text" id="guessField{{ number }}" name="guessField{{ number }}"><br>
+    {% endfor %}
+    <button type="submit">Submit</button>
+  </form>
 </body>
 </html>
