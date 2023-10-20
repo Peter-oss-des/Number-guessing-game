@@ -1,0 +1,22 @@
+body{
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+h1{
+  font-color: black;
+}
+
+input{
+  background-color: #f0f0f0;
+  border: soft-light;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  width: 150px;
+  height: 20px;
+}
+
+label{
+  font-size: 15px;
+}
